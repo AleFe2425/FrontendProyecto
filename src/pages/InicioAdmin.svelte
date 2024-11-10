@@ -31,8 +31,8 @@
     let selectedEmpleado = null;
     let isEditingEmpleado = false;
 
-    const apiUrl = 'http://refreshing-expression-production.up.railway.app'; // URL base del backend
-
+    const apiUrl = 'https://refreshing-expression-production.up.railway.app'; // URL base del backend desplegado
+    
     function setActiveSection(section) {
         activeSection = section;
         switch (section) {
